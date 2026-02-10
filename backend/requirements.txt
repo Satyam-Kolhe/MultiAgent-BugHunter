@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Gemini AI (Updated to new library)
+google-genai>=0.3.0
+
+# Groq API
+groq>=0.4.0
+
+# Vector database and document processing
+# Relaxed version to ensure pre-built wheels for Python 3.12
+chromadb>=0.4.18
+langchain==0.0.346
+
+# Text processing
+pypdf==3.17.0
+python-docx==1.1.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Async and utilities
+aiofiles==23.2.0
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1

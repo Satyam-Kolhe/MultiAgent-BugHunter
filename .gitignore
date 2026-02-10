@@ -1,0 +1,54 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environment ---
+# Based on your prompt, your venv is likely named 'infineon' or 'venv'
+venv/
+env/
+infineon/
+backend/infineon/
+
+# --- Database (ChromaDB) ---
+# Don't push the heavy vector database files
+chroma_db/
+backend/data/chroma_db/
+backend/data/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# node_modules/
+# npm-debug.log
+# yarn-error.log
+# dist/
+# build/
+
+# --- OS Generated ---
+.DS_Store
+Thumbs.db

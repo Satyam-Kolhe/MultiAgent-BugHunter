@@ -121,13 +121,6 @@ result = response.json()
 print(result)
 ```
 
-### Using the Streamlit UI
-
-1. Open `http://localhost:8501`
-2. Choose "Code Input" or "File Upload" tab
-3. Paste code or upload a file (.c, .cpp, .txt, .pdf, .docx)
-4. Click "Analyze Code" or "Analyze File"
-5. View results from all agents
 
 ## 🔧 Supported File Formats
 
